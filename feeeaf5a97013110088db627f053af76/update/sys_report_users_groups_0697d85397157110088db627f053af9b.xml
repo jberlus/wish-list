@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Active EzFix Requests by Type.">2e9708d397d17110088db627f053af01</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-20 15:38:21</sys_created_on>
+        <sys_id>0697d85397157110088db627f053af9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2e9708d397d17110088db627f053af01</sys_name>
+        <sys_package display_value="EzFix" source="x_1119661_ezfix">feeeaf5a97013110088db627f053af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EzFix">feeeaf5a97013110088db627f053af76</sys_scope>
+        <sys_update_name>sys_report_users_groups_0697d85397157110088db627f053af9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-20 15:38:21</sys_updated_on>
+        <user_id display_value="Joe Employee">681ccaf9c0a8016400b98a06818d57c7</user_id>
+    </sys_report_users_groups>
+</record_update>

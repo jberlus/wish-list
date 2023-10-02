@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Find and Close Long Overdue EzFix</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-09-29 15:39:37</run_start>
+        <run_time>1970-01-01 08:05:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var howLongToClose = gs.getProperty('x_1119661_ezfix.autoCloseOverdue');
+var overdueEz = new GlideRecord('x_1119661_ezfix_ezfix');
+overdueEz.addQuery('u_when_needed', '<=', gs.daysAgo(howLongToClose));
+overdueEz.addQuery('state', '=', 13);
+overdueEz.query();
+while (overdueEz.next()) {
+	gs.info("Auto close EzFix record = " + overdueEz.number);
+	gs.eventQueue('x_1119661_ezfix.overdueEzFixRec',overdueEz,overdueEz.number,gs.getUserName());
+
+	overdueEz.work_notes = "Record closed because it was too far past the When Needed date.";
+	overdueEz.state = 4;
+	overdueEz.update();
+}
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 16:19:01</sys_created_on>
+        <sys_id>683ee68e97a13110088db627f053afe9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Find and Close Long Overdue EzFix</sys_name>
+        <sys_package display_value="EzFix" source="x_1119661_ezfix">feeeaf5a97013110088db627f053af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EzFix">feeeaf5a97013110088db627f053af76</sys_scope>
+        <sys_update_name>sysauto_script_683ee68e97a13110088db627f053afe9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 19:34:38</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

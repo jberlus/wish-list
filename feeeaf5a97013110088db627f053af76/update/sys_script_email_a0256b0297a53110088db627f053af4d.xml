@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>CountOverdueEzFixRequestedFor</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          var rightNow = new GlideDateTime();
+ var overdueEz = new GlideRecord('x_1119661_ezfix_ezfix');
+ overdueEz.addQuery('u_when_needed', '<=', rightNow);
+ overdueEz.addQuery('state', '=', 13);
+ overdueEz.addQuery('u_requested_for', current.u_requested_for);
+ overdueEz.query();
+ template.print("In addition to this overdue EzFix , you have " + (overdueEz.getRowCount() - 1) + " more overdue EzFix Requests.");
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 19:45:14</sys_created_on>
+        <sys_id>a0256b0297a53110088db627f053af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CountOverdueEzFixRequestedFor</sys_name>
+        <sys_package display_value="EzFix" source="x_1119661_ezfix">feeeaf5a97013110088db627f053af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EzFix">feeeaf5a97013110088db627f053af76</sys_scope>
+        <sys_update_name>sys_script_email_a0256b0297a53110088db627f053af4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 19:45:14</sys_updated_on>
+    </sys_script_email>
+</record_update>

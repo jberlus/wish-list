@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA EzFix Application - New Tab">23ced49797157110088db627f053afc8</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2023-09-20 09:31:40">87c364db97157110088db627f053af24</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-20 16:31:40</sys_created_on>
+        <sys_id>47c3685f97157110088db627f053afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>23ced49797157110088db627f053afc8</sys_name>
+        <sys_package display_value="EzFix" source="x_1119661_ezfix">feeeaf5a97013110088db627f053af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EzFix">feeeaf5a97013110088db627f053af76</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_47c3685f97157110088db627f053afd4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-20 16:31:40</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1119661_ezfix.admin" name="x_1119661_ezfix.admin">ae6ca0be97813110088db627f053af32</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-06 17:37:19</sys_created_on>
+        <sys_id>1c9c28ba97813110088db627f053af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ae6ca0be97813110088db627f053af32</sys_name>
+        <sys_package display_value="EzFix" source="x_1119661_ezfix">feeeaf5a97013110088db627f053af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EzFix">feeeaf5a97013110088db627f053af76</sys_scope>
+        <sys_update_name>sys_embedded_help_role_1c9c28ba97813110088db627f053af13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-06 17:37:19</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

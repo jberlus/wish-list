@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description>All active EzFix request records&#13;
+</description>
+        <display>Active EzFix Requests (EzFix)</display>
+        <filter table="x_1119661_ezfix_ezfix">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </filter>
+        <name>Active EzFix Requests</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-20 14:22:09</sys_created_on>
+        <sys_id>1e25c45397d17110088db627f053afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active EzFix Requests (EzFix)</sys_name>
+        <sys_package display_value="EzFix" source="x_1119661_ezfix">feeeaf5a97013110088db627f053af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EzFix">feeeaf5a97013110088db627f053af76</sys_scope>
+        <sys_update_name>sys_report_source_1e25c45397d17110088db627f053afca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-20 14:22:09</sys_updated_on>
+        <table>x_1119661_ezfix_ezfix</table>
+    </sys_report_source>
+</record_update>

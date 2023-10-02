@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="EzFix Properties">f9197ca997253110088db627f053af31</category>
+        <order>100</order>
+        <property display_value="x_1119661_ezfix.advancedNoticeDays" name="x_1119661_ezfix.advancedNoticeDays">631f5e0297a13110088db627f053aff9</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 14:43:20</sys_created_on>
+        <sys_id>4c51aace97613110088db627f053af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1119661_ezfix.advancedNoticeDays.EzFix Properties</sys_name>
+        <sys_package display_value="EzFix" source="x_1119661_ezfix">feeeaf5a97013110088db627f053af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EzFix">feeeaf5a97013110088db627f053af76</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_4c51aace97613110088db627f053af9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 14:43:20</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

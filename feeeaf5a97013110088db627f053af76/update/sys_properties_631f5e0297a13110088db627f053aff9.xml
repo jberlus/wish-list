@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Minimum number of days required between when a EzFix&#13;
+request is created and the When needed date.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1119661_ezfix.advancedNoticeDays</name>
+        <read_roles>x_1119661_ezfix.admin</read_roles>
+        <suffix>advancedNoticeDays</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 14:34:50</sys_created_on>
+        <sys_id>631f5e0297a13110088db627f053aff9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1119661_ezfix.advancedNoticeDays</sys_name>
+        <sys_package display_value="EzFix" source="x_1119661_ezfix">feeeaf5a97013110088db627f053af76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EzFix">feeeaf5a97013110088db627f053af76</sys_scope>
+        <sys_update_name>sys_properties_631f5e0297a13110088db627f053aff9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 15:10:59</sys_updated_on>
+        <type>string</type>
+        <value>2</value>
+        <write_roles>x_1119661_ezfix.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=631f5e0297a13110088db627f053aff9"/>
+</record_update>
